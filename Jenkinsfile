@@ -4,7 +4,7 @@ node {
   }
     stage('Compile-Package') {
       def mvnHome = tool name: 'Apache Maven 3.3.9', type: 'maven'
-      "${mvnHome}/bin/mvn clean deploy"
+      "${mvnHome}/bin/mvn clean verify"
       
     }
   
