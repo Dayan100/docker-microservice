@@ -6,7 +6,7 @@ node{
 
 
 
-     git 'https://github.cicd.spglobal.com/dayanand-tammineni/docker1.git'
+     git 'https://github.com/Dayan100/docker-microservice.git'
 
 
 
